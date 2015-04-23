@@ -240,7 +240,7 @@ public class ZooClub {
 			while (iter.hasNext()) {
 				Entry<Person, List<Pet>> temp = iter.next();
 				x.format( ";lsdkfj %s", temp );
-				x.close();
+		
 			}
 			
 			x.close();
